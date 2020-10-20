@@ -10,4 +10,4 @@
 pytest
 
 # Deleting the container, ready for next time
-sudo docker rm -f service-1
+# sudo docker rm -f service-1
