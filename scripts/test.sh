@@ -7,7 +7,7 @@
 /home/student/nbs-mentored-project/service-1/
 
 # Running the test
-pytest
+python -m pytest
 
 # Deleting the container, ready for next time
 # sudo docker rm -f service-1
