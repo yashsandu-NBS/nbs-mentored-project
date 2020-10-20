@@ -4,7 +4,7 @@
 sudo docker run -d -p 5000:5000 --name service-1 localhost:8082/service-1
 
 # Going to the directory here app.py is located
-/home/student/nbs-mentored-challenge/service-1/
+/home/student/nbs-mentored-project/service-1/
 
 # Running the test
 py.test
