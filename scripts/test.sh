@@ -15,5 +15,5 @@ rm -rf venv
 # Running the test
 #python -m pytest
 
-# Deleting the container, ready for next time
-# sudo docker rm -f service-1
+Deleting the container, ready for next time
+sudo docker rm -f service-1
