@@ -11,4 +11,4 @@
 sudo docker-compose push
 
 # Deleting container 
-sudo docker rm -f $(sudo docker ps -aq)
+#sudo docker rm -f $(sudo docker ps -aq)
