@@ -11,6 +11,11 @@ pipeline {
                                 sh "./scripts/build.sh"
                         }
                 }
+		stage('Run Images') {
+                        steps {
+                                sh "./scripts/run.sh"
+                        }
+                }
 		stage('Push Images') {
 			steps {
 				sh "./scripts/push.sh"
