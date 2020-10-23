@@ -6,6 +6,11 @@ pipeline {
                                 sh "./scripts/test.sh"
                         }
                 }
+		stage('Install Docker') {
+                        steps {
+                                sh "./scripts/installation.sh"
+                        }
+                }
                 stage('Build Images') {
                         steps {
                                 sh "./scripts/build.sh"
