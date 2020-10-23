@@ -3,7 +3,10 @@
 python3 -m venv venv
 . ./venv/bin/activate
 pip3 install -r requirements.txt
-pytest
+pytest --cov ./service-1/
+pytest --cov ./service-2/
+pytest --cov ./service-3/
+pytest --cov ./service-4/
 rm -rf venv
 
 # Starting up the container
