@@ -1,17 +1,26 @@
 version: "3.8"
 services:
+  nexus:
+    image: sonatype/nexus3
+    ports:
+    - target: 8081
+      published: 8081
+      
   central_app:
-   container_name: service-1
-   build: ./service-1
-   ports:
-     - target: 5000
-       published: 5000
+    container_name: service-1
+    build: ./service-1
+    ports:
+    - target: 5000
+      published: 5000
+      
   random_num:
     container_name: service-2
     build: ./service-2
+    
   random_lett:
     container_name: service-3
     build: ./service-3
+    
   account_num:
     container_name: service-4
     build: ./service-4
