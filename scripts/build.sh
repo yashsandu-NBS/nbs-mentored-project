@@ -10,7 +10,7 @@ cd /home/student/nbs-mentored-project/service-1/
 # sudo docker build -t localhost:8082/service-1 .
 #sudo docker-compose build
 
-sudo docker-compose build -t localhost:8082/service-1 .
-sudo docker-compose build -t localhost:8082/service-2 .
-sudo docker-compose build -t localhost:8082/service-3 .
-sudo docker-compose build -t localhost:8082/service-4 .
+sudo docker-compose build -t localhost:8082/service1 .
+sudo docker-compose build -t localhost:8082/service2 .
+sudo docker-compose build -t localhost:8082/service3 .
+sudo docker-compose build -t localhost:8082/service4 .
