@@ -8,22 +8,22 @@ services:
       published: 8081
       
   central_app:
-    container_name: service-1
+    container_name: service1
     build: ./service-1
     ports:
     - target: 5000
       published: 5000
       
   random_num:
-    container_name: service-2
+    container_name: service2
     build: ./service-2
     
   random_lett:
-    container_name: service-3
+    container_name: service3
     build: ./service-3
     
   account_num:
-    container_name: service-4
+    container_name: service4
     build: ./service-4
     ports:
       - target: 5001
