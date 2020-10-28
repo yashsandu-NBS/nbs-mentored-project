@@ -2,12 +2,34 @@
 
 python3 -m venv venv
 . ./venv/bin/activate
+
+cd home/student/nbs-mentored-project/service-1/
 pip3 install -r requirements.txt
-pytest --cov ./service-1/
-pytest --cov ./service-2/
-pytest --cov ./service-3/
-pytest --cov ./service-4/
+pytest
+
+cd home/student/nbs-mentored-project/service-2/
+pip3 install -r requirements.txt
+pytest
+
+cd home/student/nbs-mentored-project/service-3/
+pip3 install -r requirements.txt
+pytest
+
+cd home/student/nbs-mentored-project/service-4/
+pip3 install -r requirements.txt
+pytest
+
 rm -rf venv
+
+
+#python3 -m venv venv
+#. ./venv/bin/activate
+#pip3 install -r requirements.txt
+#pytest --cov ./service-1/
+#pytest --cov ./service-2/
+#pytest --cov ./service-3/
+#pytest --cov ./service-4/
+#rm -rf venv
 
 # Starting up the container
 #sudo docker run -d -p 5000:5000 --name service-1 localhost:8082/service-1
