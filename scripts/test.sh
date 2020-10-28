@@ -5,22 +5,22 @@ python3 -m venv venv
 cd ..
 pip3 install -r requirements.txt
 
-cd home/student/nbs-mentored-project/service-1/
+cd home/student/nbs-mentored-project/service-1/tests
 #pip3 install -r requirements.txt
 pytest
 cd ..
 
-cd home/student/nbs-mentored-project/service-2/
+cd home/student/nbs-mentored-project/service-2/tests
 #pip3 install -r requirements.txt
 pytest
 cd ..
 
-cd home/student/nbs-mentored-project/service-3/
+cd home/student/nbs-mentored-project/service-3/tests
 #pip3 install -r requirements.txt
 pytest
 cd ..
 
-cd home/student/nbs-mentored-project/service-4/
+cd home/student/nbs-mentored-project/service-4/tests
 #pip3 install -r requirements.txt
 pytest
 cd ..
