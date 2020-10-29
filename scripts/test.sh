@@ -4,13 +4,18 @@ python3 -m venv venv
 . ./venv/bin/activate
 cd /home/student/nbs-mentored-project/ && pip3 install -r requirements.txt
 
-pytest /home/student/nbs-mentored-project/service-1/tests
+#pytest /home/student/nbs-mentored-project/service-1/tests
 
-pytest /home/student/nbs-mentored-project/service-2/tests
+#pytest /home/student/nbs-mentored-project/service-2/tests
 
-pytest /home/student/nbs-mentored-project/service-3/tests
+#pytest /home/student/nbs-mentored-project/service-3/tests
 
-pytest /home/student/nbs-mentored-project/service-4/tests
+#pytest /home/student/nbs-mentored-project/service-4/tests
+
+pytest --cov /home/student/nbs-mentored-project/service-1/application/
+pytest --cov /home/student/nbs-mentored-project/service-2/application/
+pytest --cov /home/student/nbs-mentored-project/service-3/application/
+pytest --cov /home/student/nbs-mentored-project/service-4/application/
 
 rm -rf venv
 
