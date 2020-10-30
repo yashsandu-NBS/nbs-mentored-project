@@ -16,14 +16,14 @@ pipeline {
                                 sh "./scripts/build.sh"
                         }
                 }
-		stage('Run Images') {
+		stage('Push Images') {
                         steps {
-                                sh "./scripts/run.sh"
+                                sh "./scripts/push.sh"
                         }
                 }
-		stage('Push Images') {
+		stage('Run Images') {
 			steps {
-				sh "./scripts/push.sh"
+				sh "./scripts/run.sh"
 			}
 		}
         }
