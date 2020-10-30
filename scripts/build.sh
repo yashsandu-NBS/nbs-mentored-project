@@ -1,7 +1,6 @@
 #! /bin/bash
 
 # Full path to the requirements.txt
-cd /home/student/nbs-mentored-project/
 
 # Installing the requirements.txt file
 #pip install -r requirements
