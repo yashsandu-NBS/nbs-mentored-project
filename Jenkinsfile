@@ -26,5 +26,10 @@ pipeline {
 				sh "./scripts/run.sh"
 			}
 		}
+		stage('Run SonarQube') {
+			steps {
+				sh "./scripts/run_sonarqube.sh"
+			}
+		}
         }
 }
