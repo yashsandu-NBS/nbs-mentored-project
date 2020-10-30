@@ -9,6 +9,7 @@ services:
       
   central_app:
     container_name: service1
+    image: localhost:8082/service1_image
     build: ./service-1
     ports:
     - target: 5000
@@ -16,14 +17,17 @@ services:
       
   random_num:
     container_name: service2
+    image: localhost:8082/service2_image
     build: ./service-2
     
   random_lett:
     container_name: service3
+    image: localhost:8082/service3_image
     build: ./service-3
     
   account_num:
     container_name: service4
+    image: localhost:8082/service4_image
     build: ./service-4
     ports:
       - target: 5001
