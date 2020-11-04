@@ -2,8 +2,8 @@
 
 sudo su - jenkins
 cd /home/student/nbs-mentored-project/scripts/packages/
-./install_python
-./install_ansible
+./install_python.sh
+./install_ansible.sh
 
 sudo apt install ansible -y
 exit
