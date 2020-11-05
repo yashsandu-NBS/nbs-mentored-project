@@ -5,15 +5,20 @@ python3 -m venv venv
 . ./venv/bin/activate
 cd /home/student/nbs-mentored-project/ && pip3 install -r requirements.txt
 
+pytest ./service-1
+pytest ./service-2
+pytest ./service-3
+pytest ./service-4
+
+#pytest ./service-1 --cov ./service-1/application
+#pytest ./service-2 --cov ./service-2/application
+#pytest ./service-3 --cov ./service-3/application
+#pytest ./service-4 --cov ./service-4/application
+
 #pytest /home/student/nbs-mentored-project/service-1/ --cov /home/student/nbs-mentored-project/service-1/application
 #pytest /home/student/nbs-mentored-project/service-2/ --cov /home/student/nbs-mentored-project/service-2/application
 #pytest /home/student/nbs-mentored-project/service-3/ --cov /home/student/nbs-mentored-project/service-3/application
 #pytest /home/student/nbs-mentored-project/service-4/ --cov /home/student/nbs-mentored-project/service-4/application
-
-pytest ./service-1 --cov ./service-1/application
-pytest ./service-2 --cov ./service-2/application
-pytest ./service-3 --cov ./service-3/application
-pytest ./service-4 --cov ./service-4/application
 
 # backup
 #pytest ./service1 --cov ./service-4/application
