@@ -10,10 +10,10 @@ cd /home/student/nbs-mentored-project/ && pip3 install -r requirements.txt
 #pytest /home/student/nbs-mentored-project/service-3/ --cov /home/student/nbs-mentored-project/service-3/application
 #pytest /home/student/nbs-mentored-project/service-4/ --cov /home/student/nbs-mentored-project/service-4/application
 
-pytest ./service1 --cov ./service-1/application
-pytest ./service2 --cov ./service-2/application
-pytest ./service3 --cov ./service-3/application
-pytest ./service4 --cov ./service-4/application
+pytest ./service-1 --cov ./service-1/application
+pytest ./service-2 --cov ./service-2/application
+pytest ./service-3 --cov ./service-3/application
+pytest ./service-4 --cov ./service-4/application
 
 # backup
 #pytest ./service1 --cov ./service-4/application
