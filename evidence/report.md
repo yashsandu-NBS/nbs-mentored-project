@@ -26,14 +26,20 @@ Any stage with an error (red box) would be solved immediately in particular revo
 ### Build Logs
 The screenshots have been taken for Build Logs. Filename:
 - NBS Mentored Project Console Output
+- Docker-Compose Service 1, 2, 3, 4 Logs
+- Push Logs
+- Ansible Logs
+- build.sh
+
+Build Logs are very important to debug the code. These logs are obtained from Jenkins Console Output. DevOps Engineers can provide the relevant information to
+their Security Engineers on what needs to be fixed. DevOps tools such as Jenkins really help to make that process easy and efficient.
 
 Other relevant screenshots:
 - VM Containers
 - Nexus
 - Jenkins Dashboard
 
-Build Logs are very important to debug the code. These logs are obtained from Jenkins Console Output. DevOps Engineers can provide the relevant information to
-their Security Engineers on what needs to be fixed. DevOps tools such as Jenkins really help to make that process easy and efficient.
+All are working successfully.
 
 ### Security Risks
 - SonarQube Issues Page
