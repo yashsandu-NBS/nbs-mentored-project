@@ -40,4 +40,6 @@ their Security Engineers on what needs to be fixed. DevOps tools such as Jenkins
 - SonarQube Console Output
 - SonarQube Dashboard
 
-SonarQube provides 
+SonarQube provides great insights into continous inspection of code quality. We can see that the two bugs (issues) given can be easily fixed with a <!DOCTYPE> tag.
+This is a major bug but can be fixed in less than a 5 minute effort. There are 0 vulnerabilities which is great from a security point of view. The security review
+has been graded an 'E' becasue of the many detected Security Hotspots. CSRF has been deteccted which is not really good as attackers can trick users to perform sensitive authenticated operations on a web application without consent. This needs to be looked into by the Security Engineers. There is also Weak Cryptography detected. 5 Code Smells have been detected however they are identifiedas minor but they can be fixed in a 5 minute effort by an engineer.
