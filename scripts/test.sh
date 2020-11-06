@@ -3,7 +3,7 @@
 sudo apt-get install python3-venv -y
 python3 -m venv venv
 . ./venv/bin/activate
-cd /home/student/nbs-mentored-project/ && pip3 install -r requirements.txt
+pip3 install -r requirements.txt
 
 pytest ./service-1 --cov ./service-1/application
 pytest ./service-2 --cov ./service-2/application
